@@ -3,7 +3,7 @@ Repositório criado para armazenar o Teste de Engenharia de Dados
 
 1. Para realização do teste foi utilizado um Database Type Ecommerce disponibilizado em https://uibakery.io/sql-playground.
 2. Para melhor entendimendo do database, foi realizado um diagrama DBML, disponibilizado dentro desde repositório.
-3. Foi criado um Notebook, no Databricks Community, disponibilizado neste repositório em formato .dbc,para a realização das demais atividades:
+3. Foi criado um Notebook, no Databricks Community, disponibilizado neste repositório em formato .dbc,para a realização das demais atividades.
 4. Inicialmente, foram setadas as credenciais para conexão JDBC com o Database, bem como os nomes das tabelas presentes. As quais, foram lidas e armazanadas, em primeiro momento, em dataframes.
 5. As tabelas lidas foram asmazenadas em formato parquet dentro do Databricks.
 6. Foi criada uma logica Merge, para cada uma das tabelas, a fim de atualizá-las dentro do Databricks, a partir das tabelas JDBC lidas.
